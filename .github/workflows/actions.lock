@@ -4,6 +4,8 @@
 version: 'v0.0.3'
 workflows:
     '.github/workflows/ci.yml': []
+    '.github/workflows/fork-release.yml':
+        - 'actions/checkout@v7.0.1'
     '.github/workflows/freebsd.yml': []
     '.github/workflows/house-rules.yml': []
     '.github/workflows/lockfile.yml':
